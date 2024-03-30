@@ -1,0 +1,65 @@
+.credit-card,
+.id-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  color: blue;
+}
+
+.credit-card .card-header,
+.id-card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #eee;
+  color: light grey;
+}
+
+.credit-card .card-header img,
+.id-card .card-header img {
+  width: 50px;
+  height: 30px;
+  color
+}
+
+.credit-card .card-body,
+.id-card .card-body {
+  flex: 1;
+  padding: 10px;
+}
+
+.credit-card .card-details,
+.id-card .card-details {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap if it overflows */
+}
+
+.credit-card .card-details > div,
+.id-card .card-details > div {
+  flex: 1;
+  margin: 5px;
+}
+
+.credit-card .card-number,
+.id-card .card-number {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.credit-card .card-holder-name,
+.id-card .card-holder-name {
+  margin-top: 10px;
+}
+
+.credit-card .card-expiry,
+.id-card .card-expiry {
+  font-size: 12px;
+  color: #aaa;
+}
